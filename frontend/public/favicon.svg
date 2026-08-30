@@ -1,0 +1,79 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#1e40af" />
+      <stop offset="40%" stopColor="#2563eb" />
+      <stop offset="80%" stopColor="#00d4ff" />
+      <stop offset="100%" stopColor="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="favDeepBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#1e3a8a" />
+      <stop offset="60%" stopColor="#0f172a" />
+      <stop offset="100%" stopColor="#1e293b" />
+    </linearGradient>
+    <linearGradient id="favRedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#991b1b" />
+      <stop offset="40%" stopColor="#ef4444" />
+      <stop offset="85%" stopColor="#f43f5e" />
+      <stop offset="100%" stopColor="#fb7185" />
+    </linearGradient>
+    <linearGradient id="favDarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0b0f19" />
+      <stop offset="50%" stopColor="#131b2e" />
+      <stop offset="100%" stopColor="#070a12" />
+    </linearGradient>
+    <linearGradient id="favVisorGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#00f0ff" />
+      <stop offset="50%" stopColor="#e0f2fe" />
+      <stop offset="100%" stopColor="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="favPurpleAura" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#8b5cf6" />
+      <stop offset="50%" stopColor="#a855f7" />
+      <stop offset="100%" stopColor="#00d4ff" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="50" cy="50" r="48" fill="#070a12" stroke="url(#favPurpleAura)" stroke-width="1.6" />
+  
+  <!-- Base Shield Chassis -->
+  <polygon points="50,5 88,23 80,73 50,95 20,73 12,23" fill="url(#favDarkGrad)" stroke="url(#favBlueGrad)" stroke-width="1.8" />
+  
+  <!-- Crown Crest Fin -->
+  <polygon points="50,9 56,23 50,29 44,23" fill="url(#favBlueGrad)" stroke="#00f0ff" stroke-width="1" />
+  <polygon points="50,12 53,22 50,26 47,22" fill="#38bdf8" />
+
+  <!-- Left Ear Fin -->
+  <polygon points="21,13 33,25 27,53 17,45 13,23" fill="url(#favBlueGrad)" stroke="rgba(0, 240, 255, 0.8)" stroke-width="1" />
+  <polygon points="17,23 27,33 23,49 15,41" fill="url(#favRedGrad)" stroke="#ff4d6d" stroke-width="0.6" />
+
+  <!-- Right Ear Fin -->
+  <polygon points="79,13 67,25 73,53 83,45 87,23" fill="url(#favBlueGrad)" stroke="rgba(0, 240, 255, 0.8)" stroke-width="1" />
+  <polygon points="83,23 73,33 77,49 85,41" fill="url(#favRedGrad)" stroke="#ff4d6d" stroke-width="0.6" />
+
+  <!-- Forehead V-Crest -->
+  <polygon points="50,21 67,35 59,41 50,31 41,41 33,35" fill="url(#favRedGrad)" stroke="#ff4d6d" stroke-width="1.2" />
+
+  <!-- Helmet Visor Brow Frame -->
+  <polygon points="31,39 69,39 65,48 35,48" fill="url(#favDeepBlue)" stroke="rgba(0, 240, 255, 0.6)" stroke-width="1" />
+
+  <!-- Optical Visor Eyes -->
+  <polygon points="34,42 45,42 42,47 33,47" fill="url(#favVisorGlow)" />
+  <polygon points="55,42 66,42 67,47 58,47" fill="url(#favVisorGlow)" />
+  <rect x="48" y="43" width="4" height="2.5" rx="0.5" fill="#00f0ff" />
+
+  <!-- Mouthplate Chassis -->
+  <polygon points="37,51 63,51 59,75 50,83 41,75" fill="url(#favDarkGrad)" stroke="url(#favPurpleAura)" stroke-width="1.4" />
+
+  <!-- Mouthplate Vents -->
+  <line x1="41" y1="57" x2="59" y2="57" stroke="url(#favBlueGrad)" stroke-width="1.8" stroke-linecap="round" />
+  <line x1="43" y1="63" x2="57" y2="63" stroke="url(#favBlueGrad)" stroke-width="1.8" stroke-linecap="round" />
+  <line x1="45" y1="69" x2="55" y2="69" stroke="url(#favBlueGrad)" stroke-width="1.8" stroke-linecap="round" />
+
+  <!-- Chin Guard Accent -->
+  <polygon points="45,76 55,76 53,87 47,87" fill="url(#favRedGrad)" stroke="#ff3366" stroke-width="1" />
+
+  <!-- Side Cheek Armor -->
+  <polygon points="25,51 35,51 37,71 25,63" fill="url(#favRedGrad)" stroke="rgba(239, 68, 68, 0.8)" stroke-width="1" />
+  <polygon points="75,51 65,51 63,71 75,63" fill="url(#favRedGrad)" stroke="rgba(239, 68, 68, 0.8)" stroke-width="1" />
+</svg>
