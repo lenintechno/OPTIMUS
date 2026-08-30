@@ -1,5 +1,5 @@
 """Gemini-backed structured language feedback for Phase 4."""
-
+import asyncio
 from collections.abc import Sequence
 from typing import Protocol
 
